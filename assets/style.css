@@ -61,7 +61,7 @@ footer { /*This section is defining the style for the footer*/
 }
 
 figure { /*This attribute is defining the space that will be between the image (figure) and the section id= contact*/
-  margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 img { /*This is defining the style attributes for the image inside the figure label*/
