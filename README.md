@@ -1,4 +1,4 @@
-# 22-Stu_Mini-Project
+# Mini Project Landing Page
 
 ## How we created a webpage that collects a visitor's contact information:
 1. We created an html document and we created a <form> tag with two inputs labeled with:
