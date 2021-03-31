@@ -1,0 +1,118 @@
+/* Universal Selector */
+/*No margin and no padding for all the elements in the webpage*/
+* {
+    margin:0;
+    padding:0; 
+  }
+  
+  /* Element Selectors */
+  body {
+    position: relative; /*This type of positionating is for achieving that all elements of the body section are located relative to the previous element*/
+    font-family: 'Times New Roman', Times, serif; /*This defines the font family of all the text on the body of the webpage*/
+    font-size: 20px; /*Font size to all the text*/
+    background-color: rgb(8, 8, 54); /*This is the backgroung color to all the webpage*/
+    color: white; /*This is the color of the text of all the body*/
+  }
+
+h1,
+h2 {
+  margin: 20px; /*The headers "My new Website and Contact me will have this margin*/
+}
+
+main {
+  padding: 60px 0; /*This defines the padding that all the main section will have with the header and the footer, this means that from the header will have a padding of "60px" and no padding from the footer*/
+}
+
+nav {
+    text-align: right;
+}
+
+li { 
+  display: inline; /*This displays all the list elements inline the difference between inline and block is that block makes the space between elements bigger*/
+  padding: 20px;
+  text-decoration: none;
+}
+
+/*This sets the text color for the nav section 3 links of the website*/
+a {
+  text-decoration: none;
+  color: #FDF8F5;
+}
+/*Defines all the box styles for the header and the footer*/
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px; /*As im understanding this concept this sets the text inline inside the header and the footer height*/
+  background-color: rgb(204, 26, 26); 
+}
+
+header {
+  position: fixed; /*This positionating means that the header will scroll down with all the page meaning that is never going to move fixed fijo*/
+  border-bottom: 10px solid #FDF8F5;
+}
+
+footer { /*This section is defining the style for the footer*/
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #FDF8F5;
+  color: #FDF8F5;    
+}
+
+figure { /*This attribute is defining the space that will be between the image (figure) and the section id= contact*/
+  margin-bottom: 100px;
+}
+
+img { /*This is defining the style attributes for the image inside the figure label*/
+  display: block;
+  margin: 20px auto;
+}
+
+section { /*This is important because is defining the style for allthe unique section in the webpage*/
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 10px solid #FDF8F5;
+  background-color: rgb(8, 8, 54);;
+}
+
+form { /*This defines the style to the contact form in the webpage*/
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #FDF8F5;
+  border-radius: 20px;
+}
+
+label { /*This is defining the style for the 2 labels in the documents form*/
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea { /*This is the style for the imputs after the labels an for the text areas*/
+  box-sizing: border-box;
+  width: 300px;
+}
+
+textarea { /*Text area style*/
+    vertical-align: top;
+    height: 60px;
+  }
+  
+button { /*Send button style*/
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+ 
+/* Class Selectors */
+.text-center { /*This is aligning the text inside the class text-center to the center*/
+  text-align: center;
+}
+
+.text-right { /*This is aligning the text inside the class text-right to the right*/
+  text-align: right;
+}

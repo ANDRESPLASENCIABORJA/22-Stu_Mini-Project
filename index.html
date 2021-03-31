@@ -1,0 +1,70 @@
+<!--Here we are using the ! and tab to make all the metadata of the document-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Trading academy</title>
+   <!--We have to link the stylesheet to our html doc-->
+   <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<!--Here we are defining the document body-->
+
+<body>
+   <!--Here we are defining the first point of the readme sectoion the header inside it will be the nav section with the a links to my GITHUB, MY PORTAFOLIO THAT WILL LEAD TO THE FIGURE SECTION AND TO MY CONTACT SECTION IN THE WEBPAGE-->
+   <header>
+      <!--Here is the nav section-->
+      <nav>
+         <!--Here is the unordered list for the nav section there will be 3 list points gontaining the links to each section in the webpage and to my github webpage-->
+         <ul>
+            <!--First point github works fine-->
+            <li><a href="https://github.com/ANDRESPLASENCIABORJA">Github</a></li>
+            <!--Second point portfolio it will lead to the image in the page using an id portfolio-->
+            <li><a href="#potfolio">Portfolio</a></li>
+            <!--Third section contact-->
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <!--Here we have the image with a caption for it-->
+      <h1 class="text-center">This is trading</h1>
+      <figure> <img
+            src="./assets/trading.jpeg"
+            alt="Tradng-img">
+         <figcaption class="text-center">If you want to take advantage of the pandemic and change your life then you
+            should fill the contact form below!</figcaption>
+      </figure>
+      <!--Now we are going to create the contact form that goes before the footer-->
+      <section id="contact">
+         <h2 class="text-center">Contact me</h2>
+         <!--Here is the contact form with the input elements for the user to fill their names and their emails-->
+         <form>
+            <ul>
+               <li>
+                  <label class="text-right" for="name">Name:</label>
+                  <input type="text" id="name" name="user-name">
+               </li>
+               <li>
+                  <label class="text-right" for="email">Email:</label>
+                  <input type="text" id="email" name="user-email">
+               </li>
+            </ul>
+            <div class="text-center">
+               <button type="submit">GET STARTED</button>
+            </div>
+         </form>
+      </section>
+   </main>
+         <!--Now the webpage footer-->
+   <footer class="text-centered">
+      <h3 class="text-center">APB 2021 PRODUCTIONS</h3>
+   </footer>
+     
+</body>
+
+</html>
